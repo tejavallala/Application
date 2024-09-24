@@ -48,9 +48,9 @@ app.post("/bfhl", upload.single("file"), (req, res) => {
 
   res.status(200).json({
     is_success: true,
-    user_id: "Akshika Singh_11062003",
-    email: "ak5797@srmist.edu.in",
-    roll_number: "RA2111043010036",
+    user_id: "",
+    email: "",
+    roll_number: "",
     numbers,
     alphabets,
     highest_lowercase_alphabet: highestLowercaseAlphabet,
